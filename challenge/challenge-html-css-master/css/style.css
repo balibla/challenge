@@ -1,0 +1,233 @@
+/*
+
+Vert: #7ed56f
+Vert medium: #55c57a
+Dark vert: #28b485
+
+*/
+
+/* Copyright @TIJANI ABDELLATIF 
+Front web developer 
+
+*/ 
+
+/* normaliser le css */
+
+*
+{
+
+
+}
+
+body {
+     
+
+}
+.heading1{
+	text-align: center;
+}
+.heading11
+
+{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+  letter-spacing: 10px; 
+	
+}
+.heading12
+{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+/* le corps de la page */
+.header 
+{
+   height:746px;
+   background-image: linear-gradient(to right, rgba(50,205,50,0.5), rgba(50,205,50,0.5)), url(../img/hero.jpg);
+   background-color:cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
+
+}
+
+.logo img
+{
+  width: 100px;
+
+}
+
+.logowhite
+{
+   
+
+}
+
+.main
+{
+
+
+}
+.heading1{
+
+    
+
+    
+}
+.heading11
+{
+    animation: fouzia 3s ;
+
+}
+
+.heading12
+{
+   animation: balibla 3s
+
+}
+.main h1 {
+	display: flex;
+   flex-direction: column;
+}
+
+/* Animation */ 
+
+@keyframes fouzia
+{
+    0%
+    {
+       transform: translateX(0px);
+       
+    }
+
+   /* 60%
+    {
+       transform: rotate(30deg) ;
+    }
+    */
+
+    80%
+    {
+        transform: translateX(100px);
+    }
+
+    100%
+    {
+       transform: translateX(10px);
+    }
+}
+
+@keyframes balibla
+{
+    0%
+    {
+      transform: translate(0px);
+       
+    }
+
+   /* 60%
+    {
+       transform: rotate(-30deg) ;
+    }
+    */
+
+    80%
+    {
+       transform: translate(10px);
+    }
+
+    100%
+    {
+       
+      transform: translate(10px);
+    }
+}
+
+
+
+@keyframes moveInBottom
+{
+    0%
+    {
+       
+
+       
+    }
+
+    80%
+    {
+      
+
+    }
+
+    100%
+    {
+       
+
+    }
+}
+
+/* bouton */ 
+.btn:link,.btn:visited
+{
+   
+
+}
+
+.btn:hover{
+
+  
+
+}
+.btn:active
+{
+  
+   
+}
+
+.btn-white
+{
+    margin-left: 687px;
+    position: relative;
+    top: 20px;
+   text-decoration: none ; 
+   background: whitesmoke ;
+   padding: 16px;
+   border-radius: 23%;
+
+}
+
+/* animer le boutton behind the scene  */ 
+
+.btn::after /* l'element fils apres le bouton */
+{
+  
+
+}
+
+.btn-white::after /* l'element fils apres le bouton */{
+  /* 
+    mettez l'element en rouge pour voir la difference
+   background-color:red;
+   */
+  
+}
+
+.btn:hover::after
+{
+ 
+
+}
+.btn-animated 
+{
+  
+   
+}
+
+
+
+
+ 
+ 
